@@ -1,0 +1,23 @@
+{
+  "name": "basic-console-logger",
+  "version": "1.0.0",
+  "description": "A simple console logger using ansii color codes.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Janinf/basic-console-logger.git"
+  },
+  "keywords": [
+    "logger",
+    "ansii",
+    "ansii-color",
+    "color-codes",
+    "color"
+  ],
+  "author": "Jan Armbruster",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Janinf/basic-console-logger/issues"
+  },
+  "homepage": "https://github.com/Janinf/basic-console-logger#readme"
+}
