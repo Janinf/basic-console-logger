@@ -42,10 +42,10 @@ Logs a yellow message with a timestamp to the console
 * Parameters
     * <code>message</code>: A message of type string
     
-`error(message)`
+`error(error)`
 Logs a red message with a timestamp to the console
 * Parameters
-    * <code>message</code>: A message of type string
+    * <code>error</code>: An error or a message of type string
     
 `request(req)`
 Logs an http request to the console in cyan. Format: \<method> \<path>

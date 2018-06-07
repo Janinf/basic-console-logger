@@ -47,7 +47,7 @@ function timestampText(text) {
 
 /**
  * Logger with different levels.
- * @type {{info: (function(string): void), warning: (function(string): void), error: (function(string): void), request: (function(string))}}
+ * @type {{info: (function(string): void), warning: (function(string): void), error: (function(string): void), request: (function(string): void)}}
  */
 module.exports = {
     /**
@@ -62,9 +62,12 @@ module.exports = {
     warning: message => console.log(colorText(timestampText(message), ansiiColorCodes.yellow)),
     /**
      * Add an error level log entry.
-     * @param message {string} Message to log.
+     * @param error {string|Error} Message or error to log.
      */
-    error: message => console.log(colorText(timestampText(message), ansiiColorCodes.red)),
+    error: error => {
+        const message = error instanceof Error ? error.stack : error;
+        console.log(colorText(timestampText(message), ansiiColorCodes.red));
+    },
     /**
      * Logs a request.
      * @param req {Request} Express request object.
