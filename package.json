@@ -8,11 +8,7 @@
     "url": "git+https://github.com/Janinf/basic-console-logger.git"
   },
   "keywords": [
-    "logger",
-    "ansii",
-    "ansii-color",
-    "color-codes",
-    "color"
+    "logger"
   ],
   "author": "Jan Armbruster",
   "license": "MIT",
