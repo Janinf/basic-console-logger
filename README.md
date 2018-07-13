@@ -15,7 +15,7 @@ logger.warning('This is a warning');
 logger.error(new Error('This is an error'));
 ```
 
-![Example result for log levels](https://github.com/janinf/basic-console-logger/images/log-levels.png)
+![Example result for log levels](https://github.com/Janinf/basic-console-logger/tree/master/images/log-levels.png)
 
 ### Log Requests
 ```
@@ -32,7 +32,7 @@ app.use((req, res, next) => {
 app.listen(3000);
 ```
 
-![Example result for log levels](https://github.com/janinf/basic-console-logger/images/request.png)
+![Example result for log levels](https://github.com/Janinf/basic-console-logger/tree/master/images/request.png)
 
 ## API
 ### Methods
